@@ -7,10 +7,7 @@ Author: Kevin T. Trinh
 
 import periodictable as pt
 import pandas as pd
-import numpy as np        
-import pyCHNOSZ as pyc
-import matplotlib.pyplot as plt
-import plotly.express as px
+import numpy as np
 
 ## DEFINE METEORITE BULK ELEMENTAL COMPOSITIONS
 
@@ -96,4 +93,6 @@ df_molar_n = df_molar_n.rename(index={'Fe': 'Fe/Fe',
                                     'O': 'O/Fe', 
                                     'H': 'H/Fe'})
 
-
+## VIEW A COMPOSITION DATAFRAME
+df_mass_n
+#df_molar_n
